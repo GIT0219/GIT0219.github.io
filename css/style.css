@@ -1,0 +1,172 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-inner{
+    max-height: 30rem;
+    }
+
+footer{
+        background: #E74C3C ;
+        min-height: 30px;
+    }
+    
+footer p{
+        color: #f3f3f3;
+    }
+/* bibliografia */
+ a[href="https://es.wikipedia.org/wiki/Ariana_Grande"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+
+    a[href="https://es.wikipedia.org/wiki/Becky_G"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Rihanna"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Rosal%C3%ADa_(cantante)"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Luis_Miguel"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Vicente_Fern%C3%A1ndez"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Moderatto"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Ana_Gabriel"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Morat"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Julieta_Venegas"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Carla_Morrison"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Selena"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Beyonc%C3%A9"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Christina_Aguilera"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Lady_Gaga"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+    a[href="https://es.wikipedia.org/wiki/Madonna"]
+    {
+        justify-content: center;
+        text-align: center;
+        color: red;
+    }
+
+/* FORMULARIO */
+.contacto{
+    display: flex;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+   }
+    
+   label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+   }
+    
+   input[type="text"],
+   input[type="email"],
+   textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #E74C3C;
+    border-radius: 3px;
+   }
+    
+   textarea {
+    height: 120px;
+   }
+    
+   input[type="submit"] {
+    background-color: #E74C3C;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+   }
+    
+   input[type="submit"]:hover {
+    background-color: rgb(123, 38, 183);
+   }
+
+   @media(max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
